@@ -1,11 +1,34 @@
+body{
+	background-image: linear-gradient(45deg, #9ae3fd 0%, #86fdc7 100%);
+}
+
 button{
 	background-color: #2aead5;
 	border-radius: 30px;
 	border: solid 1px #2eeed5;
 	box-shadow: 2px 2px grey;
 	margin: 5px;
+	padding: 5px;
 }
 
-button hover:{
-	background-color: #2eaad5;
+button:hover{
+	background-color: #00bfff;
+}
+
+button:active{
+	background-color: #00ffcc;
+}
+
+.container{
+	margin: 20px;
+}
+
+#giphy-col p{
+	font-weight: bold;
+	color: #56037D;
+	margin: 5px;
+	background-color: #b3fff0;
+	padding: 10px;
+	width: 100%;
+	border-radius: 30px;
 }

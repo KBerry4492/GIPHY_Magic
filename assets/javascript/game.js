@@ -42,8 +42,14 @@ $("#add-movie").on("click", function(event) {
             console.log("Woops, Empty form!");
         }
 
-      });
+        $("#movie-input").val("");
 
+      });
+$("#reset-btn").on("click", function(event) {
+    $("#giphy-col").empty();
+    movies = ["Howls Moving Castle", "Spirited Away", "Princess Mononoke", "My Neighbor Totoro"];
+    renderButtons();
+  });
 
 $("body").on("click", ".mov_btn", function() {
     console.log("Clicked");
